@@ -2,7 +2,7 @@
 
 <img src="pics/discord_game_summary.png" alt="discord_game_summary" width="300"/>
 
-This was a game that took place between Player MunkFSH (I) and yoifuro on Sept 3rd around 8am EDT.
+This was a game that took place between Player MunkFSH (I) and yoifuro on Sept 3rd around 8am EDT. This was our 5th game in our Season 53 League D3 match.
 
 Although it lasted only 11 turns, this board was rather complex due to a couple key interactions.
 
@@ -14,9 +14,9 @@ Here I played the remake to try to score some points. Because I remade my estate
 
 If my opponent played 3 black cats exactly, they would have 11 cards in hand with a good chance they can province + duchy, but not more than that. They would receive 2 curses from my cats leading to even points. This would lead to a tie if I can end the game on my turn.
 
-Any fewer black cats and I would likely win due to the point deficit. Any more cats and I would lose due to the point deficit.
+Any fewer black cats and I would likely win due to the point advantage. Any more cats and I would lose due to the point deficit.
 
-In the actual game my opponent had no black cats in their hand on this turn and I proceeded to win off of my point lead & by piling the anvils. This was the best case scenario for me, but this outcome was far from guaranteed. It was not a safe play, but it did get my statistical brain thinking about how likely was this event? How likely was the event that I would receive 2 curses or less on turn 9? How risky was my play on turn 9? How did I evaluate such a complex board state in less than a minute? And did I make a mistake during my rapid calculations?
+In the actual game my opponent had no black cats in their hand on this turn and I proceeded to win off of my point lead & by piling the anvils. This was the best case scenario for me, but this outcome was far from guaranteed. It was not a safe play, but it did get my statistical brain thinking. How likely was this scenario? How likely was the event that I would receive 2 curses or less on turn 9? How risky was my play on turn 9? How did I evaluate such a complex board state in less than a minute? And did I make a mistake during my rapid calculations?
 
 ## How likely was my opponent to not have any black cats in their starting hand? 🐱‍👤
 
@@ -24,6 +24,6 @@ This is a simple probability problem
 
 ## How did I evaluate such a complex board state in less than a minute? ⏱
 
-My rational was that 5 black cats in 25 cards, I expect my opponent to have at least 1, maybe 2, very fortunate for them for 3+. I put my odds of receiving 2 curses or less at ~80%. This was not empirically driven, but to try to apply quick gameplay logic... The first 5 cards are random samples from a binomial(p=0.2) which has an expected value of 1 with variance of 0.24. Within 2 standard deviations, we can expect to see 2 black cats. Factoring in arithmetic errors & bad draws in the following turn I gave this play about an 80% chance of working.
+My rational was that 5 black cats in 25 cards, I expect my opponent to have at least 1, maybe 2, very lucky if 3+ in their opening hand. I put my odds of receiving 2 curses or less at ~80%. This was not empirically driven, but in trying to apply quick gameplay reasoning... The first 5 cards can be estimated to be random samples from a binomial(p=0.2) which has an expected value of 1 with variance of 0.24. Within 2 standard deviations, we can expect to see about 2 black cats. Factoring in arithmetic errors & bad draws I gave this play about an 80% chance of working the way I wanted it to.
 
 I thought this game was interesting because of 
